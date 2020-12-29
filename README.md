@@ -1,21 +1,13 @@
-# Aoc2020Elixir
+# Aoc 2020
 
-**TODO: Add description**
+Advent of Code solutions in Elixir.
 
-## Installation
+## Running the solutions
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `aoc2020_elixir` to your list of dependencies in `mix.exs`:
+For a given day the solutions expect an `input.txt` with the input.
 
-```elixir
-def deps do
-  [
-    {:aoc2020_elixir, "~> 0.1.0"}
-  ]
-end
+To run a solution just run file for that day directly with elixir. E.g.
+
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/aoc2020_elixir](https://hexdocs.pm/aoc2020_elixir).
-
+> elixir src/day_7/day_7.ex
+```
